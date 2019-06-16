@@ -500,7 +500,7 @@ void analyze(string file){
 			    - Sum up the energy deposit in the cube
 			+ Affect the neutron hit to the cube otherwise
 			*/
-			if (findKey_hitCubeEvent != hitPerCube.end()){
+			if (findKey != hitPerCube.end()){
 			    if (hitPerCube.at(key).timeWindow < temp.timeWindow)
 				hitPerCube.at(key).energyDeposit += temp.energyDeposit;
 			    else{
