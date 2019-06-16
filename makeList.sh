@@ -1,5 +1,6 @@
 # This script is useful to list the files to be used in the analysis
-# TODO: Remove the file with same name before and the number of production
+# TODO: Remove the file with same name before running this script
+# and the number of production
 for i in $(seq 1 20); do
     FILE_PATH="/pnfs/dune/persistent/users/gyang/3DST/dump/standardGeo10/PROD$i/"
     ls $FILE_PATH > prod$i.txt
